@@ -15,5 +15,3 @@ for game in games:
 for i, item in enumerate(bgg_info,1):
     print(i, '. ' + item, sep='',end='\n')
 
-with open('negwords.json', 'w') as json_file:
-    json.dump(bgg_info, json_file)
